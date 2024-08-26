@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #country-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Country Information</h1>
+    <form method="post" action="/jdbcDeneme/CountryServlet">
+        <button type="submit">Get First Country</button>
+    </form>
+    <div id="country-info">
+
+    </div>
+</div>
+</body>
+</html>
+

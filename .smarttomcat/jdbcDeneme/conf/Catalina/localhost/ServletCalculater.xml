@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:/Users/aagdas/IdeaProjects/ServletCalculater">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/Users/aagdas/IdeaProjects/ServletCalculater/out/production/ServletCalculater" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="C:/Users/aagdas/IdeaProjects/ServletCalculater/lib/javax.servlet-api-4.0.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/javax.servlet-api-4.0.0.jar"/>
+  </Resources>
+</Context>
